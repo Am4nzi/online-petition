@@ -1,0 +1,32 @@
+<nav>
+    <ul class="navbar">
+        <a href="/logout">Logout</a> </li>
+    </ul>
+</nav>
+
+<div id="flex-container">
+    <section id="info-container">
+        <header>
+            <div id="home-sub-container">
+                <h1 id="more">Tell us more...</h1>
+                <h2>(This form is optional) </h2>
+            </div>
+        </header>
+        <section id="inputs-container">
+
+            <form method="POST">
+                <h4>Age</h4>
+                <input name="age" type="number" />
+                <h4>City</h4>
+                <input name="city" />
+                <h4>Website</h4>
+                <input id="urlfield" name="website" />
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                <button id="submit-button" class="profile-submit-button">SUBMIT</button>
+
+            </form>
+        </section>
+    </section>
+    <section id="image-container">
+    </section>
+</div>

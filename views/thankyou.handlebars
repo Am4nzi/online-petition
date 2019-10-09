@@ -1,0 +1,61 @@
+<nav>
+    <ul class="navbar">
+        <a href="/edit">Edit Profile</a>
+
+        <span class="nav-divider">ا</span>
+        <a href="/logout">Logout</a> </li>
+    </ul>
+</nav>
+
+<div id="flex-container">
+    <section id="info-container">
+        <header>
+            <div id="home-sub-container">
+                {{#if user}}
+                <h1 id="thanks-h1">
+                    Thank you {{user}}
+                </h1>
+                {{/if}}
+            </div>
+        </header>
+
+        {{#sig}}
+        <div id="sig-image">
+            <img src='{{sig}}'>
+        </div>
+        {{/sig}}
+        <p id="thanks-p">
+            Not happy with your signature?
+        </p>
+        <form method="POST">
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            <button id="delete-signers">Sign again</button>
+        </form>
+        <p id="thanks-p">
+            There are many other tokoloshe adopters around the world!
+        </p>
+
+        <a href="/signers" id="view-signers"> <button id="view-signers-button">See other adopters</button></a>
+    </section>
+
+    <div id="thanks-wrapper">
+
+
+
+        <img src="eyes.png" id="eyes01" class="blink1" title="White flower" alt="Flower">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>

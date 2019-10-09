@@ -1,0 +1,44 @@
+
+        <div id="flex-container">
+            <section id="info-container">
+                <header>
+                <h1>Log in</h1>
+                <div id="home-sub-container">
+
+
+                <h2>Please enter your details<br /> </h2>
+                </div>
+                {{#if error}}
+    <div id="error">
+            <h4>ERROR: No matching username or password found. Please try again.</h4>
+    </div>
+{{/if}}
+                </header>
+                <section id="inputs-container">
+
+                    <div id="inputs">
+                        <form method="POST">
+
+                            <h4>Email Address</h4>
+                            <input name="email" />
+
+                            <h4>Password</h4>
+                            <input type="password" name="password" />
+                            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+                            <button id = "submit-button">LOG IN</button>
+
+                        </form>
+                    </div>
+                </section>
+            </section>
+
+
+
+            <section id="image-container">
+
+
+            </section>
+
+
+        </div>

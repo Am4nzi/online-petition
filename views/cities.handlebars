@@ -1,0 +1,37 @@
+<nav>
+    <ul class="navbar">
+
+        <a href="/edit">Edit Profile</a>
+        <span class="nav-divider"> ا </span>
+        <a href="/logout">Logout</a> </li>
+    </ul>
+</nav>
+
+<div id="flex-container">
+    <section id="info-container">
+        <header>
+            <div id="devotees-container">
+                <h1 id="list">List of</h1>
+            </div>
+            <h1 id="tokoloshe">adopters</h1>
+            <div id="home-sub-container">
+                <h2 id="cities-sub">All of the adopters from {{city}}.</h2>
+            </div>
+        </header>
+        <div id='hidden-scrollbar'>
+            <section id="signers-container">
+                {{#signers}}
+                {{#if url}}
+                <p><a href="{{url}}" target="_blank">{{fname}} {{lname}}</a> ᛂ {{age}}</p>
+                {{else}}
+                <p> {{fname}} {{lname}} {{age}}</p>
+                {{/if}}
+                {{/signers}}
+            </section>
+        </div>
+    </section>
+
+    <section id="image-container">
+    </section>
+
+</div>

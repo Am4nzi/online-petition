@@ -1,0 +1,35 @@
+<nav>
+    <ul class="navbar">
+        <a href="/logout">Logout</a> </li>
+    </ul>
+</nav>
+
+<div id="flex-container">
+    <section id="info-container">
+        <header>
+            <h1 id="almost">Almost there...</h1>
+            <div id="home-sub-container">
+            </div>
+        </header>
+        <section id="inputs-container">
+
+            <div id="inputs">
+                <form method="POST">
+                    <input name="sig" type="hidden" id="sig" />
+                    <input type="hidden" id="user-id" name="user_id" />
+                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                    <div>
+                        <h4>Add your signature below:</h4>
+                        <canvas id="draw" width="400" height="125"></canvas>
+                    </div>
+
+                    <button>SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <section id="image-container">
+
+    </section>
+</div>

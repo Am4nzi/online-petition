@@ -1,0 +1,230 @@
+body {
+    margin: 0 auto;
+
+    background-color: #10192e;
+    /*Use media queries to turn back on for mobile*/
+}
+
+h1 {
+    font-family: alverata-informal, serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 4.7rem;
+    font-size: 6rem;
+    margin: 0 auto;
+    color: #432671;
+}
+
+#save {
+    letter-spacing: 4.4px;
+}
+
+h2 {
+    font-family: "Overpass", sans-serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #1d2e52;
+    line-height: 2rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: alverata-informal, serif;
+    color: #821810;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+h4 {
+    font-family: "Overpass", sans-serif;
+    font-size: 1.4rem;
+    margin: 20px 0 7px 0;
+    color: #1d2e52;
+}
+
+#deletesig {
+    border-radius: 8px;
+    width: 214px;
+    height: 34px;
+    font-family: alverata-informal, serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    border: 2px solid #822012;
+    background-color: #822012;
+    color: white;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #432671;
+    height: 35px;
+}
+
+
+    nav ul {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    padding-top: 5px;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar {
+    background-color: #432671;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    padding-top: 5px;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+nav li a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-divider {
+    font-family: "Overpass", sans-serif;
+    background-color: #432671;
+    font-weight: bold;
+}
+/*  */
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-container {
+    width: 46vw;
+    min-width: 400px;
+    color: black;
+    margin-left: 90px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#thanks-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+#eyes01 {
+    width: 370px;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+
+#thanks-h1 {
+    min-width: 700px;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+#sig-image {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+#view-signers-button {
+    border-radius: 8px;
+    width: 360px;
+    height: 40px;
+    font-family: alverata-informal, serif;
+    font-size: 1rem;
+    font-weight: 900;
+    border: none;
+    color: #eee;
+    background-color: #e48b2a;
+    margin-bottom: 100px;
+}
+
+#thanks-p {
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 19px;
+}
+
+#delete-signers {
+    border-radius: 8px;
+    width: 360px;
+    margin-bottom: 25px;
+    height: 40px;
+    font-family: alverata-informal, serif;
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+    background-color: #821810;
+    border: none;
+}
+
+.blink1 {
+    animation: blink-animation 7s steps(12, start) infinite;
+    -webkit-animation: blink-animation 4s steps(6, start) infinite;
+}
+
+#conspiracy {
+    text-decoration: line-through;
+}
+
+.nav-divider {
+    font-family: "Overpass", sans-serif;
+    background-color: #432671;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@media all and (max-width: 720px) {
+    #thanks-wrapper {
+        display: none;
+        background-color: red;
+    }
+}

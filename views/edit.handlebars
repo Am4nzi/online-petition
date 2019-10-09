@@ -1,0 +1,72 @@
+<nav>
+     <ul class="navbar">
+
+
+           <a href="/signers">All Adopters</a>
+
+            <span class="nav-divider">ا</span>
+
+            <a href="/logout">Logout</a> </li>
+
+     </ul>
+   </nav>
+
+        <div id="flex-container">
+            <section id="info-container">
+
+                <header>
+
+                <div id="home-sub-container">
+                <h2>Edit your profile, {{fname}}</h2>
+
+
+
+
+
+                </div>
+                </header>
+                <section id="inputs-container">
+
+
+                        <form method="POST">
+
+                            <h4>First Name</h4>
+                            <input name="fname" value="{{fname}} " />
+
+                            <h4>Last Name</h4>
+                            <input name="lname" value="{{lname}}" />
+
+                            <h4>Email Address</h4>
+                            <input name="email" value="{{email}}" />
+
+                            <h4>Password</h4>
+                            <input name="password" placeholder="•••••••••••••••" type="password" />
+
+                            <h4>Age</h4>
+                            <input name="age" value="{{age}}" />
+
+                            <h4>City</h4>
+                            <input name="city"value="{{city}}" />
+
+                            <h4>Website</h4>
+                            <input id ="urlfield" name="website" value="{{url}}"/>
+
+                            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+<button id ="submit-button" class = "profile-submit-button">UPDATE</button>
+
+                        </form>
+
+
+                </section>
+            </section>
+
+
+
+            <section id="image-container">
+
+
+            </section>
+
+
+        </div>
