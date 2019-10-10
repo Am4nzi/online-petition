@@ -1,6 +1,6 @@
 # Save the Tokoloshe
 
-"Save the Tokoloshe" is a fictional 'adopt an animal' website, urging users to adopt a non-existent mythical creature, a tokoloshe. It was completed in one week during my time at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/), where I studied from July - August 2019,
+"Save the Tokoloshe" is a fictional 'petition' website, urging users to sign a petition to give a non-existent mythical creature, the tokoloshe, protected status. It was completed in one week during my time at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/), where I studied from July - August 2019,
 
 ---
 

@@ -19,6 +19,7 @@ h1 {
 #tokoloshe {
     font-size: 6rem;
     font-weight: 900;
+    margin-left: 49px;
 }
 
 h2 {
@@ -47,6 +48,7 @@ h4 {
 
 #home-sub-container {
     width: 550px;
+    margin-left: 40px;
 }
 
 #home-sub {
@@ -85,6 +87,10 @@ button {
     background-color: #1d2e52;
     color: white;
     margin-top: 19px;
+}
+
+#addsig {
+    width: 500px;
 }
 
 #deletesig {
@@ -213,6 +219,10 @@ text-align:justify;
     width: 565px;
     display: flex;
     justify-content: center;
+}
+
+#signers-header {
+    margin-left: 68px;
 }
 
 #devotees-container {
