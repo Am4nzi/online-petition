@@ -4,6 +4,16 @@
 
 ---
 
+## Preview
+
+![User Journey](https://user-images.githubusercontent.com/45455994/66560657-1a282a00-eb58-11e9-83ef-d5e14e419b4b.gif)
+
+-- User Journey from registration page to final thank you page.
+
+![petition02](https://user-images.githubusercontent.com/45455994/66560801-6d01e180-eb58-11e9-890d-f95e165fad52.gif)
+
+-- Users can edit and update their profile.
+
 ## Technology used
 
 CSS, JavaScript, Handlebars.js, Canvas, Node.js / Express, Postgres / SQL and Heroku, CSURF / Helmet
