@@ -28,7 +28,7 @@ CSS, JavaScript, Handlebars.js, Canvas, Node.js / Express, Postgres / SQL and He
 
 -   Using Canvas, users can 'sign' the petition by drawing their signature with a mouse. They can can also delete their signature and redo it.
 
--   Users can view a list of who else has 'adopted' a tokloshe
+-   Users can view a list of who else has 'adopted' a tokoloshe
 
 -   Custom illustrations were created by me in Adobe Illustrator
 

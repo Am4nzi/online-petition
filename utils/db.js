@@ -90,36 +90,6 @@ exports.getHashAndId = function(email) {
 // **********GET CITIES *************************
 // **********************************************
 
-// exports.getCities = function(city) {
-//     return db.query(
-//         `SELECT users.fname, users.lname, userprofiles.age, userprofiles.url, userprofiles.city
-//         FROM signatures
-//         JOIN users
-//         ON signatures.user_id = users.id
-//         JOIN userprofiles
-//         ON users.id = userprofiles.user_id
-//         WHERE LOWER(userprofiles.city) = LOWER($1)`,
-//         [city || null]
-//     );
-// };
-//
-// exports.getCities = function(city) {
-//     return db
-//         .query(
-//             `SELECT fname, lname, age, url
-//             FROM users
-//             JOIN userprofiles
-//             ON users.id = userprofiles.user_id
-//             JOIN signatures
-//             ON users.id = signatures.user_id
-//             WHERE LOWER(userprofiles.city)=LOWER($1)`,
-//             [city]
-//         )
-//         .then(({ rows }) => {
-//             return rows;
-//         });
-// };
-
 exports.getCities = function(city) {
     return db
         .query(
